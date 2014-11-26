@@ -3,8 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#333; /*changes color of the whole text*/
 	margin-top: 0;
+	background: #074736;
 }
 #wrapper{
 	width:960px;
@@ -14,23 +15,25 @@ body{
 	-webkit-box-shadow: 0px 0px 5px #ececec;
 	-moz-box-shadow:    0px 0px 5px #ececec;
 	box-shadow:         0px 0px 5px #ececec;
-
+	background: #FFF1BF;
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #074736; /*changes color of border under project name*/
 }
 h1{
 	margin-top: 0;
 	padding-top: 10px;
+	color: #9C2231;
 }
 h2{
 	margin-top: 20px;
+	color: #C72B56;
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f9;  /*changes color of the background of the table*/
+	background: #DAFF92;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
 }
@@ -39,15 +42,15 @@ tr{
 	border-color: inherit;
 }
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: #FFFFD9; /*changes color of the stripes table*/
 }
 th{
 	text-align: left;
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	color: #fff;  /*changes color of table hd text*/
+	background: #074736; /*changes color of table hd background*/
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
