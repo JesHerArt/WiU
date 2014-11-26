@@ -3,13 +3,13 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#333; /*changes color of the whole text*/
+	color: #333; /*changes color of the whole text*/
 	margin-top: 0;
 	background: #074736;
 }
 #wrapper{
 	width:960px;
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 	padding-left: 1%;
 	padding-right: 1%;
 	-webkit-box-shadow: 0px 0px 5px #ececec;
@@ -23,11 +23,14 @@ header{
 	border-bottom: 1px solid #074736; /*changes color of border under project name*/
 }
 h1{
+	font-family: Raleway;
+	font-size: 250%;
 	margin-top: 0;
 	padding-top: 10px;
 	color: #9C2231;
 }
 h2{
+	font-family: Raleway;
 	margin-top: 20px;
 	color: #C72B56;
 }
@@ -62,6 +65,11 @@ td{
 td:first-child{
 	/*border-right: 1px solid #6a7680;*/
 }
+
+tr:hover{
+	background-color: #C72B56;
+	}
+	
 /*-------------------------------------------  top section-------------------------------------------------------*/
 .main{
 
@@ -80,9 +88,19 @@ td:first-child{
 	width: 30%;
 
 }
+
 figure img{
-	width: 100%;
+	width: 99%;
+	-webkit-box-shadow: 0px 0px 5px #074736;
+	-moz-box-shadow:    0px 0px 5px #074736;
+	box-shadow:         0px 0px 5px #074736;
+	margin-bottom: 5px;
 }
+
+figcaption {
+	padding-left: 5px;
+	}
+
 .sec{
 	clear: both;
 	margin-top: 40px;
@@ -92,16 +110,23 @@ figure img{
 /*-------------------------------------------  links -------------------------------------------------------*/
 a{
 	text-decoration: none;
-	font-size: 1.3em;
 	color: #475a80;  /*changes color of the links*/
 }
+
+table a {
+	font-size: 1.3em;
+	}
+
 a:hover{
 	text-decoration: underline;
 }
+
+tr:hover a {
+	color: #fff;
+	}
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto;
 	padding-bottom: 20px;
 	text-align: center;
 	width: 90%;
